@@ -1,5 +1,7 @@
 package com.automation.utils;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -12,6 +14,8 @@ public class DriverUtils {
 
 		// Maximize
 		driver.manage().window().maximize();
+		
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
 		// Loading url in the browser
 		driver.get(PropertyReader.getProperty("base.url"));
