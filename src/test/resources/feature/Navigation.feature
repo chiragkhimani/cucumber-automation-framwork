@@ -16,5 +16,5 @@ Feature: This feature validate naviagtion between the pages
     Examples: 
       | itemName                 |
       | Sauce Labs Backpack      |
-      | Sauce Labs Bike Light    |
-      | Sauce Labs Fleece Jacket |
+      | Sauce Labs Bike Light    | 
+      | Sauce Labs Fleece Jacket | 

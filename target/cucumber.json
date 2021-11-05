@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-05T09:22:34.654Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3961231000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify user can able to login",
+        "description": "",
+        "id": "this-feature-will-validate-login-fuctionality;verify-user-can-able-to-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1003640100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.steps.Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 203052300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open the website",
+            "match": {
+              "location": "com.automation.steps.LoginSteps.user_open_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 488704300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user do login with valid credentials",
+            "match": {
+              "location": "com.automation.steps.LoginSteps.user_do_login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 420871000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify user is on homepage",
+            "match": {
+              "location": "com.automation.steps.HomeSteps.chiragMethod()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will validate login fuctionality",
+    "description": "",
+    "id": "this-feature-will-validate-login-fuctionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/login.feature",
+    "tags": []
+  }
+]
